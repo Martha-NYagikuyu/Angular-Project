@@ -15,13 +15,13 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Setup requirements
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+you need to have a laptop or a mobile phone to access Qoute project.
 
 ## Used Technoligies
 
-HTML.CSS,angular cli and bootstrap is used in the project
+HTML.CSS,angular cli and bootstrap Setup requirements
 
 ## Support and Contact Details
 
