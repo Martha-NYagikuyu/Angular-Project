@@ -23,4 +23,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Support and Contact Details
 
+If you have any issue, do not hesitate to get intouch with me through 
+email:martha.nyagikuyu@student.moringaschool.com 
+Please feel free to make any contributions to the code.
+
+Happy coding in your career
