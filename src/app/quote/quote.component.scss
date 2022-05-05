@@ -1,0 +1,85 @@
+.quote{
+    // background-color: #f5f5f5;
+    --best-quote-bg: rgb(221, 201, 17);
+    --active-quote-color: rgb(21, 136, 156);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+  
+    &.active, &:hover{
+      border: 2px solid var(--active-quote-color);
+      background-color: var(--active-quote-color);
+      color: white;
+    }
+  
+    .quote-author{
+      font-weight: 700;
+    }
+  
+    .badge{
+      background-color: var(--active-quote-color);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      position: absolute;
+      top: -20px;
+      right: -20px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      text-align: center;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1), -4px -4px 4px rgba(255, 255, 255, 0.1);
+    }
+    &.best-quote{
+      border: 2px solid var(--best-quote-bg);
+      // overflow: hidden;
+      .badge{
+        background-color: var(--best-quote-bg);
+      }
+      &:hover{
+        background-color: var(--best-quote-bg);
+      }
+      .tie{
+        display: block;
+      }
+    }
+  
+    .tie{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 80px;
+      background-color: var(--best-quote-bg);
+      color: white;
+      display: none;
+      // transform: rotate(-45deg);
+      // transform: skew(-4deg);
+    }
+  
+    .tie::after{
+      content: "";
+      // position: absolute;
+      top: 0;
+      right: -19px;
+      width: 20px;
+      height: 20px;
+      background-color: var(--best-quote-bg);
+      // transform: rotate(45deg);
+    }
+  }
+  
+  .selected-quote{
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  
